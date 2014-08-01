@@ -1,7 +1,7 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-require_once("classes/logpublisher.php");
+/*error_reporting(E_ALL);
+ini_set('display_errors', '1');*/
+require_once("../classes/logpublisher.php");
 $rabbit_credentials	= array(
 							"host" 		=> 	"localhost",
 							"username" 	=> 	"guest",
